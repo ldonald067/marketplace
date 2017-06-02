@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Market Place</title>
+  </head>
+  <body>
+    <div class="container">
+      <div id="market">
+        <form>
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" class="form-control" id="name">
+          </div>
+          <div class="form-group">
+            <label for="address">Address:</label>
+            <input type="text" class="form-control" id="address">
+          </div>
+          <select class="form-control" id="product">
+         <option>Special</option>
+         <option>Individual</option>
+         <option>Special Too</option>
+       </select>
+       <select class="form-control" id="color">
+         <option>Blue</option>
+         <option>Green</option>
+         <option>Charcoal</option>
+       </select>
+       <select class="form-control" id="coolness">
+         <option>Sweet!</option>
+         <option>Whoa!!</option>
+         <option>Positively Icy.</option>
+       </select>
+       <br>
+          <button class="btn btn-primary" type="submit">Click here</button>
+          <button class="btn btn-primary" type="submit" id="redo">Resubmit</button>
+        </form>
+      </div>
+      <!--Receipt to show after submission-->
+      <div class="well" id="receipt">
+        <h3>Thank you for your order! Here is your receipt!</h3>
+        <ul class="list-unstyled">
+          <p id="prodList">You chose this product</p>
+          <p id="colorList">in THIS fantastic color</p>
+          <p id="coolList">at this coolness level!!!</p>
+          <h2>Here is your name and address confirmation</h2>
+          <p id="nameList"></p>
+          <p id="addressList"></p>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>

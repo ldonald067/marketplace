@@ -1,0 +1,11 @@
+#receipt {
+  display: none;
+}
+
+#nameList {
+  font-weight: bold;
+}
+
+#addressList {
+  font-weight: bold;
+}
